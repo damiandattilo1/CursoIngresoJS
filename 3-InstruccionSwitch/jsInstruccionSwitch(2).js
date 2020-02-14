@@ -1,11 +1,22 @@
 function mostrar()
 {
 //tomo la edad  
-var mesDelAño = document.getElementById('mes').value;
+var mes = document.getElementById('mes').value;
 
-alert (mesDelAño);
+switch(mes)
+{
+    case :
+        alert("Abrigate que hace frio.");
+        break;
 
+    case :
+        alert("Falta para el invierno.");
+        break;
 
+    case "Julio":
+        alert("Ya pasamos el frio, ahora calor.");
+        break;
 
+}
 
 }//FIN DE LA FUNCIÓN
